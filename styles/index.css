@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:400,700');
+html, body{
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    font-family: "Poppins";
+}
+p,h1 {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    color: #fff;
+}
+.lateral-esquerda-landingpage{
+    display: flex;
+    height: 100%;
+    width: 40%;
+    background-color: #1E1C1C;
+}
+.containerItemsEsquerdo{
+    text-align: left;
+    display: flex;
+    margin-right: auto;
+    margin-left: auto;
+    flex-direction: column;
+    width: 70%;
+}
+.TextoPrincipal{
+    margin-top: 30%;
+    
+    font-weight: 600;
+}
+.paragrafoPrincipal{
+    width: 60%;
+    box-sizing: inherit;
+}
+.Botao-container{
+    display: flex;
+    justify-content: space-evenly;
+    width: 40%;
+    background-color: #1E1C1C;
+}
